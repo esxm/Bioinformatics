@@ -1,1 +1,1 @@
-# Bioinformatics
+# A repository for the Bioinformatics lab.

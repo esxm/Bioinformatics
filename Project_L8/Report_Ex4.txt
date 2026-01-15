@@ -1,0 +1,165 @@
+=========================================
+  Bioinformatics Lab – Transposon Search
+=========================================
+
+Generation time: 2025-11-19 15:44:19.826744
+IR length range: 10-20 bp
+Genomes analyzed:
+  - NC_000915.1 (Accession NC_000915.1, 1,667,867 bp) -> 20 candidate IR pairs
+  - NC_002163.1 (Accession NC_002163.1, 1,641,481 bp) -> 20 candidate IR pairs
+  - NC_002162.1 (Accession NC_002162.1, 751,719 bp) -> 20 candidate IR pairs
+
+--------------------------------------------------
+Genome: NC_000915.1  (Accession: NC_000915.1)
+--------------------------------------------------
+Genome length: 1,667,867 bp
+Inverted repeat length range: 10-20 bp
+Max pairs reported: 20
+
+Detected inverted-repeat pairs (candidate transposons):
+  [#1] Left IR: 1396-1405, Right IR: 1848-1857, IR length=10, spacer=442, candidate size=462 bp
+  [#2] Left IR: 2285-2294, Right IR: 2501-2510, IR length=10, spacer=206, candidate size=226 bp
+  [#3] Left IR: 2663-2672, Right IR: 2774-2783, IR length=10, spacer=101, candidate size=121 bp
+  [#4] Left IR: 2760-2769, Right IR: 2860-2869, IR length=10, spacer=90, candidate size=110 bp
+  [#5] Left IR: 3994-4003, Right IR: 4078-4087, IR length=10, spacer=74, candidate size=94 bp
+  [#6] Left IR: 4965-4974, Right IR: 5163-5172, IR length=10, spacer=188, candidate size=208 bp
+  [#7] Left IR: 5183-5192, Right IR: 5384-5393, IR length=10, spacer=191, candidate size=211 bp
+  [#8] Left IR: 9486-9495, Right IR: 9718-9727, IR length=10, spacer=222, candidate size=242 bp
+  [#9] Left IR: 9645-9654, Right IR: 9842-9851, IR length=10, spacer=187, candidate size=207 bp
+  [#10] Left IR: 9646-9655, Right IR: 9841-9850, IR length=10, spacer=185, candidate size=205 bp
+  [#11] Left IR: 10702-10711, Right IR: 11053-11062, IR length=10, spacer=341, candidate size=361 bp
+  [#12] Left IR: 11133-11142, Right IR: 11489-11498, IR length=10, spacer=346, candidate size=366 bp
+  [#13] Left IR: 11134-11143, Right IR: 11488-11497, IR length=10, spacer=344, candidate size=364 bp
+  [#14] Left IR: 11834-11843, Right IR: 12217-12226, IR length=10, spacer=373, candidate size=393 bp
+  [#15] Left IR: 13506-13515, Right IR: 13570-13579, IR length=10, spacer=54, candidate size=74 bp
+  [#16] Left IR: 14943-14952, Right IR: 14980-14989, IR length=10, spacer=27, candidate size=47 bp
+  [#17] Left IR: 15318-15327, Right IR: 15821-15830, IR length=10, spacer=493, candidate size=513 bp
+  [#18] Left IR: 18948-18957, Right IR: 19414-19423, IR length=10, spacer=456, candidate size=476 bp
+  [#19] Left IR: 18949-18958, Right IR: 19413-19422, IR length=10, spacer=454, candidate size=474 bp
+  [#20] Left IR: 19808-19817, Right IR: 19945-19954, IR length=10, spacer=127, candidate size=147 bp
+
+Interpretation for this genome:
+  Several inverted-repeat pairs were identified. Each pair consists
+  of two short sequences that are reverse complements of each other,
+  separated by an internal fragment of DNA (the candidate transposon).
+  This structural organization is typical of bacterial insertion
+  sequences (IS elements) and other transposons.
+
+  Although IR pairs alone are not definitive proof of active
+  transposons, they strongly suggest transposon-like regions.
+  To confirm, one would usually:
+    -search the internal region for transposase ORFs,
+    -compare the sequence with known IS elements (e.g. ISFinder),
+    -and look for target-site duplications at insertion boundaries.
+
+
+--------------------------------------------------
+Genome: NC_002163.1  (Accession: NC_002163.1)
+--------------------------------------------------
+Genome length: 1,641,481 bp
+Inverted repeat length range: 10-20 bp
+Max pairs reported: 20
+
+Detected inverted-repeat pairs (candidate transposons):
+  [#1] Left IR: 1546-1555, Right IR: 1579-1588, IR length=10, spacer=23, candidate size=43 bp
+  [#2] Left IR: 1547-1556, Right IR: 1578-1587, IR length=10, spacer=21, candidate size=41 bp
+  [#3] Left IR: 1649-1658, Right IR: 1764-1773, IR length=10, spacer=105, candidate size=125 bp
+  [#4] Left IR: 3643-3652, Right IR: 3966-3975, IR length=10, spacer=313, candidate size=333 bp
+  [#5] Left IR: 3910-3919, Right IR: 3943-3952, IR length=10, spacer=23, candidate size=43 bp
+  [#6] Left IR: 3948-3957, Right IR: 4321-4330, IR length=10, spacer=363, candidate size=383 bp
+  [#7] Left IR: 4165-4174, Right IR: 4620-4629, IR length=10, spacer=445, candidate size=465 bp
+  [#8] Left IR: 4277-4286, Right IR: 4463-4472, IR length=10, spacer=176, candidate size=196 bp
+  [#9] Left IR: 4720-4729, Right IR: 5033-5042, IR length=10, spacer=303, candidate size=323 bp
+  [#10] Left IR: 4721-4730, Right IR: 5032-5041, IR length=10, spacer=301, candidate size=321 bp
+  [#11] Left IR: 4736-4745, Right IR: 5115-5124, IR length=10, spacer=369, candidate size=389 bp
+  [#12] Left IR: 5859-5868, Right IR: 6173-6182, IR length=10, spacer=304, candidate size=324 bp
+  [#13] Left IR: 5968-5977, Right IR: 6349-6358, IR length=10, spacer=371, candidate size=391 bp
+  [#14] Left IR: 6112-6121, Right IR: 6247-6256, IR length=10, spacer=125, candidate size=145 bp
+  [#15] Left IR: 6506-6515, Right IR: 6693-6702, IR length=10, spacer=177, candidate size=197 bp
+  [#16] Left IR: 6527-6536, Right IR: 6619-6628, IR length=10, spacer=82, candidate size=102 bp
+  [#17] Left IR: 6542-6551, Right IR: 6684-6693, IR length=10, spacer=132, candidate size=152 bp
+  [#18] Left IR: 6543-6552, Right IR: 6683-6692, IR length=10, spacer=130, candidate size=150 bp
+  [#19] Left IR: 6544-6553, Right IR: 6682-6691, IR length=10, spacer=128, candidate size=148 bp
+  [#20] Left IR: 6545-6554, Right IR: 6681-6690, IR length=10, spacer=126, candidate size=146 bp
+
+Interpretation for this genome:
+  Several inverted-repeat pairs were identified. Each pair consists
+  of two short sequences that are reverse complements of each other,
+  separated by an internal fragment of DNA (the candidate transposon).
+  This structural organization is typical of bacterial insertion
+  sequences (IS elements) and other transposons.
+
+  Although IR pairs alone are not definitive proof of active
+  transposons, they strongly suggest transposon-like regions.
+  To confirm, one would usually:
+    -search the internal region for transposase ORFs,
+    -compare the sequence with known IS elements (e.g. ISFinder),
+    -and look for target-site duplications at insertion boundaries.
+
+
+--------------------------------------------------
+Genome: NC_002162.1  (Accession: NC_002162.1)
+--------------------------------------------------
+Genome length: 751,719 bp
+Inverted repeat length range: 10-20 bp
+Max pairs reported: 20
+
+Detected inverted-repeat pairs (candidate transposons):
+  [#1] Left IR: 16-25, Right IR: 104-113, IR length=10, spacer=78, candidate size=98 bp
+  [#2] Left IR: 299-308, Right IR: 698-707, IR length=10, spacer=389, candidate size=409 bp
+  [#3] Left IR: 313-322, Right IR: 719-728, IR length=10, spacer=396, candidate size=416 bp
+  [#4] Left IR: 366-375, Right IR: 856-865, IR length=10, spacer=480, candidate size=500 bp
+  [#5] Left IR: 692-701, Right IR: 1085-1094, IR length=10, spacer=383, candidate size=403 bp
+  [#6] Left IR: 693-702, Right IR: 1084-1093, IR length=10, spacer=381, candidate size=401 bp
+  [#7] Left IR: 694-703, Right IR: 1083-1092, IR length=10, spacer=379, candidate size=399 bp
+  [#8] Left IR: 695-704, Right IR: 1082-1091, IR length=10, spacer=377, candidate size=397 bp
+  [#9] Left IR: 1010-1019, Right IR: 1153-1162, IR length=10, spacer=133, candidate size=153 bp
+  [#10] Left IR: 1302-1311, Right IR: 1442-1451, IR length=10, spacer=130, candidate size=150 bp
+  [#11] Left IR: 1465-1474, Right IR: 1856-1865, IR length=10, spacer=381, candidate size=401 bp
+  [#12] Left IR: 1466-1475, Right IR: 1855-1864, IR length=10, spacer=379, candidate size=399 bp
+  [#13] Left IR: 1471-1480, Right IR: 1733-1742, IR length=10, spacer=252, candidate size=272 bp
+  [#14] Left IR: 1570-1579, Right IR: 1837-1846, IR length=10, spacer=257, candidate size=277 bp
+  [#15] Left IR: 1836-1845, Right IR: 2000-2009, IR length=10, spacer=154, candidate size=174 bp
+  [#16] Left IR: 1837-1846, Right IR: 1999-2008, IR length=10, spacer=152, candidate size=172 bp
+  [#17] Left IR: 2102-2111, Right IR: 2317-2326, IR length=10, spacer=205, candidate size=225 bp
+  [#18] Left IR: 2548-2557, Right IR: 2786-2795, IR length=10, spacer=228, candidate size=248 bp
+  [#19] Left IR: 2549-2558, Right IR: 2785-2794, IR length=10, spacer=226, candidate size=246 bp
+  [#20] Left IR: 3306-3315, Right IR: 3464-3473, IR length=10, spacer=148, candidate size=168 bp
+
+Interpretation for this genome:
+  Several inverted-repeat pairs were identified. Each pair consists
+  of two short sequences that are reverse complements of each other,
+  separated by an internal fragment of DNA (the candidate transposon).
+  This structural organization is typical of bacterial insertion
+  sequences (IS elements) and other transposons.
+
+  Although IR pairs alone are not definitive proof of active
+  transposons, they strongly suggest transposon-like regions.
+  To confirm, one would usually:
+    -search the internal region for transposase ORFs,
+    -compare the sequence with known IS elements (e.g. ISFinder),
+    -and look for target-site duplications at insertion boundaries.
+
+
+=========================================
+Overall Interpretation and Conclusions
+=========================================
+
+In all three bacterial genomes, inverted-repeat (IR) detection was
+performed without prior knowledge of transposon positions. IRs of
+length 10-20 bp were scanned, and potential transposon
+boundaries were identified wherever pairs of reverse-complement IRs
+were found separated by a spacer of 20–500 bp.
+
+The presence of such IR pairs suggests potential insertion sequences
+(IS elements) or related transposon-like structures. However, IR
+detection alone is only the first step. To fully validate transposon
+candidates, further analysis would typically include:
+  - identification of transposase genes within the candidate region,
+  - comparison with known transposable elements via BLAST/ISFinder,
+  - and examination of target-site duplications.
+
+From a computational perspective, this analysis demonstrates how
+pattern-based searching (in this case, short inverted repeats) can be
+used to generate hypotheses about mobile genetic elements in bacterial
+genomes, without requiring prior annotation of transposons.

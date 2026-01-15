@@ -1,0 +1,29 @@
+Each point in the plot represents one viral genome.
+
+The X-axis shows the genome’s overall GC% (Cytosine + Guanine content).
+
+The Y-axis shows the assembly time in milliseconds measured during the reconstruction process from simulated reads.
+
+The position of each point depends on both the GC composition and the genome’s complexity:
+
+Horizontal differences (along the X-axis)
+
+Viruses with a low GC% are located more to the left of the plot, while those with a high GC% are toward the right.
+
+GC content influences the sequence composition and the variety of k-mers in the genome, which can affect how repetitive or unique the sequence is.
+
+Vertical differences (along the Y-axis)
+
+The assembly time depends mostly on the genome length and the number of unique k-mers generated during the assembly process.
+
+Longer genomes or genomes with more repetitive regions tend to produce more nodes and edges in the de Bruijn graph, requiring more computation and resulting in higher points (longer times).
+
+Shorter or less complex genomes assemble faster and therefore appear lower on the plot.
+
+Overall interpretation
+
+There isn’t always a direct correlation between GC% and assembly time; genomes with similar GC% values may still differ in assembly time because of differences in length, structure, or repeat content.
+
+Clusters or trends in the plot can hint at how sequence composition (GC%) interacts with computational complexity (assembly time).
+
+In summary, the points differ in position because of the combined influence of genome size, GC composition, and sequence complexity—factors that affect how quickly and efficiently each viral genome can be assembled.
